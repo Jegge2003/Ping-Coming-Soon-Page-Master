@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3bc919de2f.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+<body>
+  <div class="whole">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo" />
+    </div>
+    <div>
+      <p class="message">We are launching <strong class="soon">soon!</strong></p>
+    </div>
+    <div>
+      <p class="subscribe">Subscribe and get notified</p>
+    </div>
+    <form action="#" method="#" name="myform" role="search" id="search" onsubmit="return validateemail()" method="POST">
+      <input class="form-control" placeholder="Your email address..." name="email" id="ed-srch-term" type="text"
+        pattern=".+@globex.com" size="30" required />
+      <button type="submit" id="searchbtn">Notify Me
+      </button>
+    </form>
+    <div><img src="./images/illustration-dashboard.png" alt="illustration-dashboard" class="dashboard" /></div>
+    <div class="icons " style="font-size:25px; color: blue;">
+      <i class="fab fa-facebook-f" style="margin: 10px;"></i>
+      <i class="fab fa-twitter" style="margin: 10px;"></i>
+      <i class="fab fa-instagram" style="margin: 10px;"></i>
+    </div>
+    <div class="copyright">&copy; Copyright Ping. All rights reserved
+    </div>
+    <div class="footer">
+      <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Coe FaIFaR</a>.
+        </p>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
